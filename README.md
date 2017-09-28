@@ -11,6 +11,11 @@ There're 4 themes in this package:
     - Momo Sol Light
     - Momo Sol Dark
 
-Screenshots coming soon/or maybe never?
+Note that this is a port, so there're some bugs that I haven't addressed yet :/
+
+![Momo Light](./screenshots/light.png)
+![Momo Dark](./screenshots/dark.png)
+![Momo Sol Light](./screenshots/sollight.png)
+![Momo Sol Dark](./screenshots/soldark.png)
 
 **Enjoy!**
