@@ -13,9 +13,9 @@ There're 4 themes in this package:
 
 Note that this is a port, so there're some bugs that I haven't addressed yet :/
 
-![Momo Light](./screenshots/light.png)
-![Momo Dark](./screenshots/dark.png)
-![Momo Sol Light](./screenshots/sollight.png)
-![Momo Sol Dark](./screenshots/soldark.png)
+![Momo Light](https://raw.githubusercontent.com/scottmo/momothemes/master/screenshots/light.png)
+![Momo Dark](https://raw.githubusercontent.com/scottmo/momothemes/master/screenshots/dark.png)
+![Momo Sol Light](https://raw.githubusercontent.com/scottmo/momothemes/master/screenshots/sollight.png)
+![Momo Sol Dark](https://raw.githubusercontent.com/scottmo/momothemes/master/screenshots/soldark.png)
 
 **Enjoy!**
