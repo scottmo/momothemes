@@ -114,20 +114,20 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#6c71c4</string>
+                <string>#859900</string>
             </dict>
         </dict>
         <dict>
-            <key>name</key>
-            <string>Operator, Misc</string>
-            <key>scope</key>
-            <string>keyword.operator, constant.other.color, punctuation, meta.tag, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded, keyword.other.template, keyword.other.substitution</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#2aa198</string>
-            </dict>
-        </dict>
+			<key>name</key>
+			<string>Tag Start End</string>
+			<key>scope</key>
+			<string>constant.other.color, meta.tag, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded, keyword.other.template, keyword.other.substitution</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#839496</string>
+			</dict>
+		</dict>
         <dict>
             <key>name</key>
             <string>Markup Tag</string>
@@ -136,22 +136,22 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#cf4b56</string>
+                <string>#268bd2</string>
             </dict>
         </dict>
         <dict>
-            <key>name</key>
-            <string>Function, Special Method, Block Level</string>
-            <key>scope</key>
-            <string>entity.name.function, meta.function-call, variable.function, support.function, keyword.other.special-method, meta.block-level</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#268bd2</string>
-                <key>fontStyle</key>
-                <string>bold</string>
-            </dict>
-        </dict>
+			<key>name</key>
+			<string>Function, Special Method, Block Level</string>
+			<key>scope</key>
+			<string>entity.name.function, support.function</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#268bd2</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
         <dict>
             <key>name</key>
             <string>Other Variable, String Link</string>
@@ -390,7 +390,7 @@
                 <key>fontStyle</key>
                 <string>italic</string>
                 <key>foreground</key>
-                <string>#FFCB6B</string>
+                <string>#93a1a1</string>
             </dict>
         </dict>
         <dict>
@@ -803,20 +803,20 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#C85114</string>
+                <string>#268bd2</string>
             </dict>
         </dict>
         <dict>
-            <key>name</key>
-            <string>{}</string>
-            <key>scope</key>
-            <string>meta.brace.curly</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#b5a03b</string>
-            </dict>
-        </dict>
+			<key>name</key>
+			<string>{}</string>
+			<key>scope</key>
+			<string>meta.brace.curly, punctuation.definition.block</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+                <string>#2aa198</string>
+			</dict>
+		</dict>
         <dict>
             <key>name</key>
             <string>[]</string>

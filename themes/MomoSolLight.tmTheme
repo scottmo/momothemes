@@ -827,7 +827,8 @@
 			<string>meta.brace.round, punctuation.definition.parameters.begin, punctuation.definition.parameters.end</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key><string>#268bd2</string>
+				<key>foreground</key>
+				<string>#268bd2</string>
 			</dict>
 		</dict>
 		<dict>
@@ -837,7 +838,8 @@
 			<string>meta.brace.curly, punctuation.definition.block</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key><string>#2aa198</string>
+				<key>foreground</key>
+				<string>#2aa198</string>
 			</dict>
 		</dict>
 		<dict>
@@ -847,7 +849,8 @@
 			<string>meta.brace.square</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key><string>#6c71c4</string>
+				<key>foreground</key>
+				<string>#6c71c4</string>
 			</dict>
 		</dict>
 		<dict>
@@ -879,7 +882,8 @@
 			<string>meta.tag, punctuation.separator</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key><string>orange</string>
+				<key>foreground</key>
+				<string>#ef8545</string>
 			</dict>
 		</dict>
 	</array>
