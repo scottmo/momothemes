@@ -1,8 +1,8 @@
 {
     "name": "momotheme",
-    "displayName": "MomoTheme",
+    "displayName": "Momo Theme",
     "description": "Momo Theme - Visual Studio Code theme inspired by Material, Solarized and Boxy themes",
-    "version": "0.0.4",
+    "version": "0.1.0",
     "publisher": "momosct",
     "engines": {
         "vscode": "^1.16.0"
@@ -27,18 +27,18 @@
             },
             {
                 "label": "MomoDark",
-                "uiTheme": "vs",
+                "uiTheme": "vs-dark",
                 "path": "./themes/MomoDark.json"
-            },
-            {
-                "label": "MomoSolDark",
-                "uiTheme": "vs",
-                "path": "./themes/MomoSolDark.json"
             },
             {
                 "label": "MomoSolLight",
                 "uiTheme": "vs",
                 "path": "./themes/MomoSolLight.json"
+            },
+            {
+                "label": "MomoSolDark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/MomoSolDark.json"
             }
         ]
     }

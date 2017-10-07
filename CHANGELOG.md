@@ -1,5 +1,9 @@
 # Change Log
-- Initial port from custom sublime themes
-
-## [Unreleased]
-- Initial release
+- v0.0.1
+    - Initial port from custom sublime themes
+- v0.0.2 - 4
+    - Forgot ¯\_(ツ)_/¯
+- v0.1.0
+    - Lowered background brightness for both light themes
+    - Migrated to JSON theme format
+    - Fixed some color issues
