@@ -18,13 +18,13 @@
 				<key>activeGuide</key>
 				<string>#00000070</string>
 				<key>background</key>
-				<string>#f6f6f6</string>
+				<string>#ebebeb</string>
 				<key>caret</key>
 				<string>#27272790</string>
 				<key>findHighlight</key>
 				<string>#F8E71C</string>
 				<key>foreground</key>
-				<string>#627878</string>
+				<string>#50677b</string>
 				<key>guide</key>
 				<string>#B0BEC570</string>
 				<key>gutterForeground</key>
@@ -34,7 +34,7 @@
 				<key>lineHighlight</key>
 				<string>#90A4AE20</string>
 				<key>phantomCss</key>
-				<string><![CDATA[ html { background-color: #fafafa; color: #669795; padding: 16px; } a { color: #8796B0; line-height: 16px; } .error, .deleted { color: #E53935; } .success, .inserted { color: #91B859; } .warning, .modified { color: #cfa438; } .type { color: #39ADB5; font-style: italic; } .param { color: #F76D47; } .current { text-decoration: underline; } ]]></string>
+				<string><![CDATA[ html { background-color: #ebebeb; color: #669795; padding: 16px; } a { color: #8796B0; line-height: 16px; } .error, .deleted { color: #E53935; } .success, .inserted { color: #91B859; } .warning, .modified { color: #cfa438; } .type { color: #39ADB5; font-style: italic; } .param { color: #F76D47; } .current { text-decoration: underline; } ]]></string>
 				<key>selection</key>
 				<string>#66979540</string>
 				<key>shadow</key>
@@ -154,7 +154,7 @@
 			<key>name</key>
 			<string>Function, Special Method, Block Level</string>
 			<key>scope</key>
-			<string>entity.name.function, meta.function-call, variable.function, support.function, keyword.other.special-method, meta.block-level</string>
+			<string>entity.name.function</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -269,6 +269,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Annotation Decorators</string>
+			<key>scope</key>
+			<string>meta.decorator, meta.decorator variable.other.readwrite</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#b58900</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Attributes</string>
 			<key>scope</key>
 			<string>entity.other.attribute-name</string>
@@ -276,6 +287,8 @@
 			<dict>
 				<key>foreground</key>
 				<string>#b974ef</string>
+				<key>fontStyle</key>
+				<string>italic</string>
 			</dict>
 		</dict>
 		<dict>
@@ -285,8 +298,6 @@
 			<string>text.html.basic entity.other.attribute-name.html, text.html.basic entity.other.attribute-name</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
 				<key>foreground</key>
 				<string>#cfa438</string>
 			</dict>

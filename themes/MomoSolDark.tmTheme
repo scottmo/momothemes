@@ -119,6 +119,17 @@
         </dict>
         <dict>
 			<key>name</key>
+			<string>Keyword, Storage</string>
+			<key>scope</key>
+			<string>storage.type, keyword.control</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+        <dict>
+			<key>name</key>
 			<string>Tag Start End</string>
 			<key>scope</key>
 			<string>constant.other.color, meta.tag, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded, keyword.other.template, keyword.other.substitution</string>
@@ -245,6 +256,17 @@
             </dict>
         </dict>
         <dict>
+			<key>name</key>
+			<string>Annotation Decorators</string>
+			<key>scope</key>
+			<string>meta.decorator, meta.decorator variable.other.readwrite</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#b58900</string>
+			</dict>
+		</dict>
+        <dict>
             <key>name</key>
             <string>Attributes</string>
             <key>scope</key>
@@ -253,6 +275,8 @@
             <dict>
                 <key>foreground</key>
                 <string>#6c71c4</string>
+                <key>fontStyle</key>
+                <string>italic</string>
             </dict>
         </dict>
         <dict>

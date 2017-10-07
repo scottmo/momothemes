@@ -277,6 +277,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Annotation Decorators</string>
+			<key>scope</key>
+			<string>meta.decorator, meta.decorator variable.other.readwrite</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#b58900</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Attributes</string>
 			<key>scope</key>
 			<string>entity.other.attribute-name</string>
@@ -284,13 +295,15 @@
 			<dict>
 				<key>foreground</key>
 				<string>#6c71c4</string>
+				<key>fontStyle</key>
+                <string>italic</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>HTML Attributes</string>
 			<key>scope</key>
-			<string>text.html.basic entity.other.attribute-name.html, text.html.basic entity.other.attribute-name</string>
+			<string>entity.other.attribute-name</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
