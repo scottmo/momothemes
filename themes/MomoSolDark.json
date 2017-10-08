@@ -83,7 +83,6 @@
         "name": "Operator, Misc",
         "scope": [
           "constant.other.color",
-          "punctuation",
           "meta.tag",
           "punctuation.definition.tag",
           "punctuation.separator.inheritance.php",

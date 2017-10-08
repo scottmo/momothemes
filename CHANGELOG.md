@@ -7,3 +7,6 @@
     - Lowered background brightness for both light themes
     - Migrated to JSON theme format
     - Fixed some color issues
+- v0.1.1
+    - Fixed some weird punctuation colors
+    - Remove quote's color, making it adaptive
