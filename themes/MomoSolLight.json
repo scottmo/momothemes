@@ -687,7 +687,12 @@
       "name": "Braces {}",
       "scope": [
         "meta.brace.curly",
-        "punctuation.definition.block"
+        "punctuation.definition.block",
+        "punctuation.definition.binding-pattern.object",
+        "punctuation.section.property-list.begin.bracket.curly",
+        "punctuation.section.property-list.end.bracket.curly",
+        "punctuation.definition.generic.begin.html",
+        "punctuation.definition.generic.end.html"
       ],
       "settings": {
         "foreground": "#2aa198"
