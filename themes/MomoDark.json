@@ -681,7 +681,7 @@
           "punctuation.definition.parameters.end"
         ],
         "settings": {
-          "foreground": "#009688"
+          "foreground": "#6abbd9"
         }
       },
       {
@@ -691,7 +691,7 @@
           "punctuation.definition.block"
         ],
         "settings": {
-          "foreground": "#b5a03b"
+          "foreground": "#009688"
         }
       },
       {
@@ -700,7 +700,7 @@
           "meta.brace.square"
         ],
         "settings": {
-          "foreground": "#b78a44"
+          "foreground": "#89DDFF"
         }
       },
       {
