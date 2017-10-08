@@ -82,7 +82,6 @@
         "name": "Operator, Misc",
         "scope": [
           "constant.other.color",
-          "punctuation",
           "meta.tag",
           "punctuation.definition.tag",
           "punctuation.separator.inheritance.php",
@@ -94,7 +93,7 @@
           "keyword.other.substitution"
         ],
         "settings": {
-          "foreground": "#2aa198"
+          "foreground": "#cfa438"
         }
       },
       {
