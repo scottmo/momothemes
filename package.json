@@ -2,7 +2,7 @@
     "name": "momotheme",
     "displayName": "Momo Theme",
     "description": "Momo Theme - Visual Studio Code theme inspired by Material, Solarized and Boxy themes",
-    "version": "0.1.1",
+    "version": "0.2.0",
     "publisher": "momosct",
     "engines": {
         "vscode": "^1.16.0"
@@ -12,12 +12,16 @@
     ],
     "homepage": "https://github.com/scottmo/momothemes",
     "repository": {
-		"type": "git",
-		"url": "https://github.com/scottmo/momothemes.git"
+        "type": "git",
+        "url": "https://github.com/scottmo/momothemes.git"
     },
     "bugs": {
-		"url": "https://github.com/scottmo/momothemes/issues"
-	},
+        "url": "https://github.com/scottmo/momothemes/issues"
+    },
+    "scripts": {
+        "build": "node ./tasks/build.js",
+        "publish": "vsce publish"
+    },
     "contributes": {
         "themes": [
             {
@@ -41,5 +45,8 @@
                 "path": "./themes/MomoSolDark.json"
             }
         ]
+    },
+    "dependencies": {
+        "mustache": "^2.3.0"
     }
 }

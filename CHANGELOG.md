@@ -10,3 +10,5 @@
 - v0.1.1
     - Fixed some weird punctuation colors
     - Remove quote's color, making it adaptive
+- v0.2.0
+    - Use mustache to generate themes from pallete files and template
