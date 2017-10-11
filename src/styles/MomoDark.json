@@ -26,15 +26,15 @@
     "listHoverForeground": "#FFFFFF",
     "tabActiveForeground": "#FFFFFF",
     "tag": "#f07178",
-    "markupAttribute": "#b44ecc",
+    "markupAttribute": "#C792EA",
     "punctuations": {
-      "operator": "#c792ea",
+      "operator": "#C792EA",
       "braces": "#82AAFF",
       "parans": "#6abbd9",
       "brackets": "#89DDFF",
       "misc": "#cfa438"
     },
-    "annotation": "#b58900",
+    "annotation": "#C792EA",
     "base": {
       "white": "#ffffff",
       "black": "#000000",
