@@ -12,3 +12,10 @@
     - Remove quote's color, making it adaptive
 - v0.2.0
     - Use mustache to generate themes from pallete files and template
+- v0.2.1
+    - Added borders between views
+        - (let me know if this looks bad XD)
+        - (my friend thinks this is more accessible tho)
+    - Adjust contrast of scrollbar
+    - Make annotation same color as keyword
+    - Adjust some colors to make them blend better
