@@ -19,8 +19,8 @@
     "inputBackground": "#00000005",
     "inputForeground": "#90A4AE",
     "inputBorder": "#00000010",
-    "scrollbars": "#00000050",
-    "scrollbarsHover": "#00000030",
+    "scrollbars": "#00000015",
+    "scrollbarsHover": "#00000025",
     "statusbarForeground": "#7E939E",
     "sidebarForeground": "#7E939E",
     "listHoverForeground": "#B1C7D3",
@@ -35,6 +35,7 @@
     },
     "annotation": "#b4881d",
     "markupAttribute": "#93a1a1",
+    "innerBorder": "#e4d9c3",
     "base": {
       "white": "#eee8d6",
       "black": "#000000",
