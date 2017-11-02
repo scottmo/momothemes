@@ -1,14 +1,14 @@
 {
-  "id": "momodark",
-  "name": "MomoDark",
+  "id": "dark",
+  "name": "Dark",
   "type": "dark",
   "scheme": {
     "background": "#263238",
     "comment": "#546E7A",
     "caret": "#FFCC00",
-    "foreground": "#89abbf",
+    "foreground": "#a2c3d6",
     "focusBorder": "#FFFFFF",
-    "function": "#6abbd9",
+    "function": "#7cc8cd",
     "indentGuide": "#37474F80",
     "keyword": "#C792EA",
     "lineNumbers": "#37474F",
@@ -30,9 +30,10 @@
     "innerBorder": "#37474F80",
     "punctuations": {
       "operator": "#C792EA",
-      "braces": "#82AAFF",
-      "parans": "#6abbd9",
-      "brackets": "#89DDFF",
+      "braces": "#808889",
+      "parans": "#808889",
+      "brackets": "#808889",
+      "quotes": "#808889",
       "misc": "#cfa438"
     },
     "annotation": "#C792EA",

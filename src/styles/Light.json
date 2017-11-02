@@ -1,6 +1,6 @@
 {
-  "id": "momolight",
-  "name": "MomoLight",
+  "id": "light",
+  "name": "Light",
   "type": "light",
   "scheme": {
     "background": "#ebebeb",
@@ -31,6 +31,7 @@
       "braces": "#9C5E14",
       "parans": "#5884b9",
       "brackets": "#AF5E14",
+      "quotes": "#8b9798",
       "misc": "#c8942b"
     },
     "annotation": "#b44ecc",

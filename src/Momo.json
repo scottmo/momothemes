@@ -728,12 +728,27 @@
       {
         "name": "Punctuation",
         "scope": [
+          "punctuation.accessor",
           "keyword.operator",
           "eyword.punctuation",
           "keyword punctuation"
         ],
         "settings": {
           "foreground": "{{scheme.punctuations.operator}}"
+        }
+      },
+      {
+        "name": "Quotes",
+        "scope": [
+          "punctuation.definition.string.template.begin",
+          "punctuation.definition.string.template.end",
+          "punctuation.support.type.property-name.begin",
+          "punctuation.support.type.property-name.end",
+          "punctuation.definition.string.begin",
+          "punctuation.definition.string.end"
+        ],
+        "settings": {
+          "foreground": "{{scheme.punctuations.quotes}}"
         }
       },
       {
