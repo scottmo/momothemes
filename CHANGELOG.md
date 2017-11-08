@@ -19,3 +19,6 @@
     - Adjust contrast of scrollbar
     - Make annotation same color as keyword
     - Adjust some colors to make them blend better
+- v0.3.0
+    - Make operators and punctuations blend in with background so the code stands out more (inspired by Monokai Pro)
+    - Increase contrast between widget background and editor background
