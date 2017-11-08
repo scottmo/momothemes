@@ -38,6 +38,6 @@ function buildThemes(themplateName, srcDir, targetDir) {
         fs.writeFile(outputPath, outputTheme, 'utf8', err => {
             if (err) throw err;
             console.log('Output: ', outputPath);
-        }); 
+        });
     });
 }
