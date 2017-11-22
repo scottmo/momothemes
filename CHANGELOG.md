@@ -22,3 +22,7 @@
 - v0.3.0
     - Make operators and punctuations blend in with background so the code stands out more (inspired by Monokai Pro)
     - Increase contrast between widget background and editor background
+- v0.3.1
+    - Make keywords italics
+    - Fix jsx component tag color
+    - Minor sol light color adjustment
