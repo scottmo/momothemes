@@ -1,53 +1,58 @@
 {
-    "name": "momotheme",
-    "displayName": "Momo Theme",
-    "description": "Momo Theme - Visual Studio Code theme inspired by Material, Solarized and Boxy themes",
-    "version": "0.3.0",
-    "publisher": "momosct",
-    "license": "MIT",
-    "engines": {
-        "vscode": "^1.16.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "homepage": "https://github.com/scottmo/momothemes",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/scottmo/momothemes.git"
-    },
-    "bugs": {
-        "url": "https://github.com/scottmo/momothemes/issues"
-    },
-    "scripts": {
-        "build": "node ./tasks/build.js",
-        "publish": "node ./tasks/build.js && vsce publish"
-    },
-    "contributes": {
-        "themes": [
-            {
-                "label": "MomoLight",
-                "uiTheme": "vs",
-                "path": "./themes/MomoLight.json"
-            },
-            {
-                "label": "MomoDark",
-                "uiTheme": "vs-dark",
-                "path": "./themes/MomoDark.json"
-            },
-            {
-                "label": "MomoSolLight",
-                "uiTheme": "vs",
-                "path": "./themes/MomoSolLight.json"
-            },
-            {
-                "label": "MomoSolDark",
-                "uiTheme": "vs-dark",
-                "path": "./themes/MomoSolDark.json"
-            }
-        ]
-    },
-    "dependencies": {
-        "mustache": "^2.3.0"
-    }
+	"name": "momotheme",
+	"displayName": "Momo Theme",
+	"description": "Momo Theme - Visual Studio Code theme inspired by Material, Solarized and Boxy themes",
+	"version": "0.3.0",
+	"publisher": "momosct",
+	"license": "MIT",
+	"engines": {
+		"vscode": "^1.16.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"homepage": "https://github.com/scottmo/momothemes",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/scottmo/momothemes.git"
+	},
+	"bugs": {
+		"url": "https://github.com/scottmo/momothemes/issues"
+	},
+	"scripts": {
+		"build": "node ./tasks/build.js",
+		"publish": "node ./tasks/build.js && vsce publish"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "MomoLight",
+				"uiTheme": "vs",
+				"path": "./themes/MomoLight.json"
+			},
+			{
+				"label": "MomoDark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/MomoDark.json"
+			},
+			{
+				"label": "MomoSolLight",
+				"uiTheme": "vs",
+				"path": "./themes/MomoSolLight.json"
+			},
+			{
+				"label": "MomoSolDark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/MomoSolDark.json"
+			}
+		]
+	},
+	"dependencies": {
+		"mustache": "^2.3.0"
+	},
+	"__metadata": {
+		"id": "d4b575fc-257a-4b69-86ca-2bc71e9f8892",
+		"publisherDisplayName": "momosct",
+		"publisherId": "5ebc61d5-1632-4d5e-8ee1-0f87a0d7af69"
+	}
 }

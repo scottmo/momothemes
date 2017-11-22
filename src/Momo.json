@@ -65,6 +65,7 @@
           "storage.modifier"
         ],
         "settings": {
+          "fontStyle": "italic",
           "foreground": "{{scheme.keyword}}"
         }
       },
@@ -101,7 +102,8 @@
         "scope": [
           "entity.name.tag",
           "meta.tag.sgml",
-          "markup.deleted.git_gutter"
+          "markup.deleted.git_gutter",
+          "support.class.component"
         ],
         "settings": {
           "foreground": "{{scheme.tag}}"
