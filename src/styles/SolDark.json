@@ -6,7 +6,7 @@
     "background": "#002b36",
     "comment": "#586e75",
     "caret": "#FFCC00",
-    "foreground": "#839496",
+    "foreground": "#a0b1b3",
     "focusBorder": "#eee8d6",
     "function": "#268bd2",
     "indentGuide": "#37474F80",
@@ -21,22 +21,26 @@
     "inputBorder": "#FFFFFF10",
     "scrollbars": "#00000030",
     "scrollbarsHover": "#00000020",
-    "statusbarForeground": "#586e75",
-    "sidebarForeground": "#586e75",
+    "statusbarForeground": "#839aa2",
+    "sidebarForeground": "#839aa2",
     "listHoverForeground": "#eee8d6",
     "tabActiveForeground": "#eee8d6",
-    "tag": "#268bd2",
+    "annotation": "#859900",
+    "innerBorder": "#37474F80",
+    "string": "#32a198",
     "punctuations": {
       "operator": "#32a198",
       "braces": "#586e75",
       "parans": "#586e75",
       "brackets": "#586e75",
       "quotes": "#586e75",
-      "misc": "#2aa198"
+      "misc": "#586e75"
     },
-    "annotation": "#859900",
-    "markupAttribute": "#547076",
-    "innerBorder": "#37474F80",
+    "markup": {
+      "tag": "#268bd2",
+      "bracket": "#32a198",
+      "attribute": "#446a75"
+    },
     "base": {
       "white": "#eee8d6",
       "black": "#000000",

@@ -22,21 +22,25 @@
     "scrollbars": "#00000015",
     "scrollbarsHover": "#00000025",
     "statusbarForeground": "#7E939E",
-    "sidebarForeground": "#7E939E",
+    "sidebarForeground": "#7f919a",
     "listHoverForeground": "#d33682",
     "tabActiveForeground": "#000000",
-    "tag": "#268bd2",
+    "annotation": "#b4881d",
+    "innerBorder": "#e4d9c3",
+    "string": "#32a198",
     "punctuations": {
       "operator": "#009688",
       "braces": "#bab6ae",
       "parans": "#bab6ae",
       "brackets": "#bab6ae",
       "quotes": "#bab6ae",
-      "misc": "#39ADB5"
+      "misc": "#bab6ae"
     },
-    "annotation": "#b4881d",
-    "markupAttribute": "#93a1a1",
-    "innerBorder": "#e4d9c3",
+    "markup": {
+      "tag": "#268bd2",
+      "bracket": "#009688",
+      "attribute": "#93a1a1"
+    },
     "base": {
       "white": "#eee8d6",
       "black": "#000000",

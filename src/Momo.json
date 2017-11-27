@@ -23,7 +23,8 @@
         "name": "Variables",
         "scope": [
           "variable",
-          "string constant.other.placeholder"
+          "string constant.other.placeholder",
+          "support.variable.property"
         ],
         "settings": {
           "foreground": "{{scheme.foreground}}"
@@ -84,17 +85,26 @@
         "scope": [
           "constant.other.color",
           "meta.tag",
-          "punctuation.definition.tag",
           "punctuation.separator.inheritance.php",
-          "punctuation.definition.tag.html",
-          "punctuation.definition.tag.begin.html",
-          "punctuation.definition.tag.end.html",
           "punctuation.section.embedded",
           "keyword.other.template",
-          "keyword.other.substitution"
+          "keyword.other.substitution",
+          "punctuation"
         ],
         "settings": {
           "foreground": "{{scheme.punctuations.misc}}"
+        }
+      },
+      {
+        "name": "Tag Start End",
+        "scope": [
+          "punctuation.definition.tag",
+          "punctuation.definition.tag.html",
+          "punctuation.definition.tag.begin.html",
+          "punctuation.definition.tag.end.html"
+        ],
+        "settings": {
+          "foreground": "{{scheme.markup.bracket}}"
         }
       },
       {
@@ -106,7 +116,26 @@
           "support.class.component"
         ],
         "settings": {
-          "foreground": "{{scheme.tag}}"
+          "foreground": "{{scheme.markup.tag}}"
+        }
+      },
+      {
+        "name": "JSX Class Tag",
+        "scope": [
+          "support.class.component"
+        ],
+        "settings": {
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "name": "Attributes",
+        "scope": [
+          "entity.other.attribute-name"
+        ],
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "{{scheme.markup.attribute}}"
         }
       },
       {
@@ -190,7 +219,7 @@
         ],
         "settings": {
           "fontStyle": "normal",
-          "foreground": "{{scheme.base.green}}"
+          "foreground": "{{scheme.string}}"
         }
       },
       {
@@ -273,16 +302,6 @@
         }
       },
       {
-        "name": "Attributes",
-        "scope": [
-          "entity.other.attribute-name"
-        ],
-        "settings": {
-          "fontStyle": "italic",
-          "foreground": "{{scheme.markupAttribute}}"
-        }
-      },
-      {
         "name": "CSS Classes",
         "scope": [
           "entity.other.attribute-name.class"
@@ -333,7 +352,7 @@
           "string.regexp"
         ],
         "settings": {
-          "foreground": "{{scheme.base.cyan}}"
+          "foreground": "{{scheme.string}}"
         }
       },
       {
@@ -380,7 +399,8 @@
       {
         "name": "JSON Key - Level 0",
         "scope": [
-          "source.json meta.structure.dictionary.json support.type.property-name.json"
+          "source.json meta.structure.dictionary.json support.type.property-name.json",
+          "meta.object-literal.key"
         ],
         "settings": {
           "foreground": "{{scheme.base.purple}}"
@@ -721,7 +741,8 @@
           "punctuation.section.method.begin.bracket.curly",
           "punctuation.section.method.end.bracket.curly",
           "punctuation.section.block.begin.bracket.curly",
-          "punctuation.section.block.end.bracket.curly"
+          "punctuation.section.block.end.bracket.curly",
+          "punctuation.section.embedded"
         ],
         "settings": {
           "foreground": "{{scheme.punctuations.braces}}"
@@ -731,8 +752,7 @@
         "name": "Punctuation",
         "scope": [
           "keyword.operator",
-          "eyword.punctuation",
-          "keyword punctuation"
+          "keyword.punctuation"
         ],
         "settings": {
           "foreground": "{{scheme.punctuations.operator}}"
