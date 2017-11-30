@@ -26,3 +26,7 @@
     - Make keywords italics
     - Fix jsx component tag color
     - Minor sol light color adjustment
+- v0.3.2
+    - organize markup colors
+    - make most punctuations less intrusive
+    - give foreground and sidebar foreground more contrast
