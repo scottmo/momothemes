@@ -23,8 +23,17 @@
         "name": "Variables",
         "scope": [
           "variable",
-          "string constant.other.placeholder",
-          "support.variable.property"
+          "string constant.other.placeholder"
+        ],
+        "settings": {
+          "foreground": "{{scheme.foreground}}"
+        }
+      },
+      {
+        "name": "Normal",
+        "scope": [
+          "support.variable.property",
+          "meta.jsx.children"
         ],
         "settings": {
           "foreground": "{{scheme.foreground}}"

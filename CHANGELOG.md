@@ -30,3 +30,5 @@
     - organize markup colors
     - make most punctuations less intrusive
     - give foreground and sidebar foreground more contrast
+- v0.3.3
+    - fix jsx text not colored correctly
