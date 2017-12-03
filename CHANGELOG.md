@@ -32,3 +32,5 @@
     - give foreground and sidebar foreground more contrast
 - v0.3.3
     - fix jsx text not colored correctly
+- v0.3.4
+    - change markup tag brackets to less intrusive color as well
