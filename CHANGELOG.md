@@ -34,3 +34,5 @@
     - fix jsx text not colored correctly
 - v0.3.4
     - change markup tag brackets to less intrusive color as well
+- v0.3.5
+    - fix operators being italic and affecting readability
