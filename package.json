@@ -44,6 +44,11 @@
 				"label": "MomoSolDark",
 				"uiTheme": "vs-dark",
 				"path": "./themes/MomoSolDark.json"
+			},
+			{
+				"label": "MomoOneDark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/MomoOneDark.json"
 			}
 		]
 	},

@@ -1,0 +1,60 @@
+{
+  "id": "onedark",
+  "name": "oneDark",
+  "type": "dark",
+  "scheme": {
+    "background": "#282c34",
+    "comment": "#7f848e",
+    "caret": "#FFCC00",
+    "foreground": "#e06c75",
+    "focusBorder": "#eee8d6",
+    "function": "#43ace4",
+    "indentGuide": "#37474F80",
+    "keyword": "#c678dd",
+    "lineNumbers": "#37474F",
+    "invisibles": "#65737E",
+    "lineHighlight": "#000000",
+    "selection": "#80CBC420",
+    "shadow": "#00000030",
+    "widgetBackground": "#21252b",
+    "inputForeground": "#cccccc",
+    "inputBorder": "#FFFFFF10",
+    "scrollbars": "#00000030",
+    "scrollbarsHover": "#00000020",
+    "statusbarForeground": "#839aa2",
+    "sidebarForeground": "#839aa2",
+    "listHoverForeground": "#eee8d6",
+    "tabActiveForeground": "#eee8d6",
+    "annotation": "#61afef",
+    "innerBorder": "#37474F80",
+    "string": "#98c379",
+    "punctuations": {
+      "operator": "#56ada7",
+      "braces": "#7f848e",
+      "parans": "#7f848e",
+      "brackets": "#7f848e",
+      "quotes": "#7f848e",
+      "misc": "#7f848e"
+    },
+    "markup": {
+      "tag": "#67adde",
+      "bracket": "#7f848e",
+      "attribute": "#446a75"
+    },
+    "base": {
+      "white": "#bbbbbb",
+      "black": "#000000",
+      "red": "#c93f34",
+      "orange": "#d19a66",
+      "yellow": "#e5c07b",
+      "green": "#98c379",
+      "cyan": "#56ada7",
+      "blue": "#61afef",
+      "paleblue": "#8faeb9",
+      "purple": "#c678dd",
+      "brown": "#C17E70",
+      "pink": "#d13a82",
+      "teal": "#80CBC4"
+    }
+  }
+}
