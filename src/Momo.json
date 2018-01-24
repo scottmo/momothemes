@@ -194,7 +194,9 @@
         "name": "Other Variable, String Link",
         "scope": [
           "support.other.variable",
-          "string.other.link"
+          "string.other.link",
+          "variable.other.normal.shell",
+          "variable.other.positional.shell"
         ],
         "settings": {
           "foreground": "{{scheme.base.pink}}"
