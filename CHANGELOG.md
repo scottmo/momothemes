@@ -38,7 +38,7 @@
     - Fixed operators being italic and affecting readability
 - v0.3.6
     - Made annotations' color different from other keywords
-- v0.4.0
+- v0.4.1
     - New experimental one dark theme
         - lately I've been using one dark and found the contrast is pretty okay whether in bright or dim lighting, which fills up the gap between MomoDark(bright) and MomoSolDark(dim & low contrast), so I used the pallete from one dark and compose this
     - Fixed shell variable color
