@@ -17,5 +17,6 @@ Note that this is a port, so there're some bugs that I haven't addressed yet :/
 ![Momo Dark](https://raw.githubusercontent.com/scottmo/momothemes/master/screenshots/dark.png)
 ![Momo Sol Light](https://raw.githubusercontent.com/scottmo/momothemes/master/screenshots/sollight.png)
 ![Momo Sol Dark](https://raw.githubusercontent.com/scottmo/momothemes/master/screenshots/soldark.png)
+![Momo One Dark](https://raw.githubusercontent.com/scottmo/momothemes/master/screenshots/onedark.png)
 
 **Enjoy!**
