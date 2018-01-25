@@ -42,3 +42,5 @@
     - New experimental one dark theme
         - lately I've been using one dark and found the contrast is pretty okay whether in bright or dim lighting, which fills up the gap between MomoDark(bright) and MomoSolDark(dim & low contrast), so I used the pallete from one dark and compose this
     - Fixed shell variable color
+- v0.5.0
+    - Remove source from published package
