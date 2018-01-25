@@ -44,3 +44,5 @@
     - Fixed shell variable color
 - v0.5.0
     - Remove source from published package
+- v0.5.1
+    - Fix one dark theme file name
