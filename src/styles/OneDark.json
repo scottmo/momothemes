@@ -42,7 +42,7 @@
       "attribute": "#446a75"
     },
     "base": {
-      "white": "#bbbbbb",
+      "white": "#eeeeee",
       "black": "#000000",
       "red": "#c93f34",
       "orange": "#d19a66",
@@ -54,7 +54,7 @@
       "purple": "#c678dd",
       "brown": "#C17E70",
       "pink": "#d13a82",
-      "teal": "#80CBC4"
+      "teal": "#67adde"
     }
   }
 }
