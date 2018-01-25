@@ -9,30 +9,36 @@
     - Fixed some color issues
 - v0.1.1
     - Fixed some weird punctuation colors
-    - Remove quote's color, making it adaptive
+    - Removed quote's color, making it adaptive
 - v0.2.0
-    - Use mustache to generate themes from pallete files and template
+    - Used mustache to generate themes from pallete files and template
 - v0.2.1
     - Added borders between views
         - (let me know if this looks bad XD)
         - (my friend thinks this is more accessible tho)
-    - Adjust contrast of scrollbar
-    - Make annotation same color as keyword
-    - Adjust some colors to make them blend better
+    - Adjusted contrast of scrollbar
+    - Made annotation same color as keyword
+    - Adjusted some colors to make them blend better
 - v0.3.0
-    - Make operators and punctuations blend in with background so the code stands out more (inspired by Monokai Pro)
-    - Increase contrast between widget background and editor background
+    - Made operators and punctuations blend in with background so the code stands out more (inspired by Monokai Pro)
+    - Increased contrast between widget background and editor background
 - v0.3.1
-    - Make keywords italics
-    - Fix jsx component tag color
+    - Made keywords italics
+    - Fixed jsx component tag color
     - Minor sol light color adjustment
 - v0.3.2
-    - organize markup colors
-    - make most punctuations less intrusive
-    - give foreground and sidebar foreground more contrast
+    - Organized markup colors
+    - Made most punctuations less intrusive
+    - Gave foreground and sidebar foreground more contrast
 - v0.3.3
-    - fix jsx text not colored correctly
+    - Fixed jsx text not colored correctly
 - v0.3.4
-    - change markup tag brackets to less intrusive color as well
+    - Changed markup tag brackets to less intrusive color as well
 - v0.3.5
-    - fix operators being italic and affecting readability
+    - Fixed operators being italic and affecting readability
+- v0.3.6
+    - Made annotations' color different from other keywords
+- v0.4.0
+    - New experimental one dark theme
+        - lately I've been using one dark and found the contrast is pretty okay whether in bright or dim lighting, which fills up the gap between MomoDark(bright) and MomoSolDark(dim & low contrast), so I used the pallete from one dark and compose this
+    - Fixed shell variable color
