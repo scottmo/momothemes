@@ -46,3 +46,5 @@
     - Remove source from published package
 - v0.5.1
     - Fix one dark theme file name
+- v0.5.2
+    - No more red foreground for one dark
