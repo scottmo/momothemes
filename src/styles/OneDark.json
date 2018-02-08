@@ -6,11 +6,11 @@
     "background": "#282c34",
     "comment": "#7f848e",
     "caret": "#FFCC00",
-    "foreground": "#bfb9bf",
+    "foreground": "#bebebe",
     "focusBorder": "#eee8d6",
-    "function": "#43ace4",
+    "function": "#b8ce6c",
     "indentGuide": "#37474F80",
-    "keyword": "#c678dd",
+    "keyword": "#9cd1bb",
     "lineNumbers": "#37474F",
     "invisibles": "#65737E",
     "lineHighlight": "#000000",
@@ -25,11 +25,11 @@
     "sidebarForeground": "#839aa2",
     "listHoverForeground": "#eee8d6",
     "tabActiveForeground": "#eee8d6",
-    "annotation": "#61afef",
+    "annotation": "#b8ce6c",
     "innerBorder": "#37474F80",
-    "string": "#98c379",
+    "string": "#e5c07b",
     "punctuations": {
-      "operator": "#56ada7",
+      "operator": "#ff657a",
       "braces": "#7f848e",
       "parans": "#7f848e",
       "brackets": "#7f848e",
@@ -44,17 +44,17 @@
     "base": {
       "white": "#eeeeee",
       "black": "#000000",
-      "red": "#c93f34",
-      "orange": "#d19a66",
+      "red": "#ff657a",
+      "orange": "#ffad6a",
       "yellow": "#e5c07b",
-      "green": "#98c379",
+      "green": "#b8ce6c",
       "cyan": "#56ada7",
       "blue": "#61afef",
       "paleblue": "#8faeb9",
-      "purple": "#c678dd",
+      "purple": "#baa0f8",
       "brown": "#C17E70",
-      "pink": "#d13a82",
-      "teal": "#67adde"
+      "pink": "#db6ea9",
+      "teal": "#b8ce6c"
     }
   }
 }

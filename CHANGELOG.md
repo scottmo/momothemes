@@ -48,3 +48,5 @@
     - Fix one dark theme file name
 - v0.5.2
     - No more red foreground for one dark
+- v0.5.4
+    - Use some of the Monokai schemes on One Dark
