@@ -718,6 +718,17 @@
         }
       },
       {
+        "name": "Markup - Code Block",
+        "scope": [
+          "markup.fenced_code.block.markdown",
+          "markup.inline.raw.string.markdown"
+        ],
+        "settings": {
+          "foreground": "{{scheme.string}}",
+          "background": "{{scheme.widgetBackground}}"
+        }
+      },
+      {
         "name": "Brackets []",
         "scope": [
           "meta.brace.square",
