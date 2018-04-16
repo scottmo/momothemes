@@ -20,7 +20,7 @@
 		"url": "https://github.com/scottmo/momothemes/issues"
 	},
 	"scripts": {
-		"publish-theme": "cd themes; vsce publish"
+		"publish-theme": "cd build; vsce publish"
 	},
 	"contributes": {
 		"themes": [
