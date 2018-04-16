@@ -11,7 +11,7 @@
     "function": "#b8ce6c",
     "indentGuide": "#37474F80",
     "keyword": "#9cd1bb",
-    "lineNumbers": "#37474F",
+    "lineNumbers": "#566c77",
     "invisibles": "#65737E",
     "lineHighlight": "#000000",
     "selection": "#80CBC420",
@@ -27,7 +27,7 @@
     "tabActiveForeground": "#eee8d6",
     "annotation": "#b8ce6c",
     "innerBorder": "#37474F80",
-    "string": "#e5c07b",
+    "string": "#f2b088",
     "punctuations": {
       "operator": "#ff657a",
       "braces": "#7f848e",
@@ -39,14 +39,14 @@
     "markup": {
       "tag": "#67adde",
       "bracket": "#7f848e",
-      "attribute": "#446a75"
+      "attribute": "#566c77"
     },
     "base": {
       "white": "#eeeeee",
       "black": "#000000",
       "red": "#ff657a",
       "orange": "#ffad6a",
-      "yellow": "#e5c07b",
+      "yellow": "#eec585",
       "green": "#b8ce6c",
       "cyan": "#56ada7",
       "blue": "#61afef",
