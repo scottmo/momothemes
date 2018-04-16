@@ -50,3 +50,7 @@
     - No more red foreground for one dark
 - v0.5.4
     - Use some of the Monokai schemes on One Dark
+- v1.0.0
+    - Tone down markup attribute color of dark theme
+    - Integrate some of the Monokai colors into one dark theme
+    - Add markdown code block syntax color
