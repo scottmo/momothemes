@@ -1,4 +1,4 @@
-const gulp = require('gulp');
+const { src, dest, parallel } = require('gulp');
 const mustache = require('gulp-mustache');
 const rename = require('gulp-rename');
 const path = require('path');
@@ -6,7 +6,7 @@ const path = require('path');
 const SRC = 'src';
 const DST = 'build';
 
-gulp.task('themes', function() {
+function buildThemes(done) {
     const templateFile = path.join(SRC, 'Momo.json');
     const dataFiles = [
         'Dark',
@@ -17,16 +17,20 @@ gulp.task('themes', function() {
     ].map(name => name + '.json');
 
     dataFiles.forEach(dataFile => {
-        gulp.src(templateFile)
+        src(templateFile)
             .pipe(mustache(path.join(SRC, 'styles', dataFile)))
             .pipe(rename('Momo' + dataFile))
-            .pipe(gulp.dest(path.join(DST, 'themes')));
+            .pipe(dest(path.join(DST, 'themes')));
     });
-});
+    done();
+};
 
-gulp.task('package', function() {
-    gulp.src('*.md').pipe(gulp.dest(DST));
-    gulp.src('package.json').pipe(gulp.dest(DST));
-});
+function buildPackage(done) {
+    src('*.md').pipe(dest(DST));
+    src('package.json').pipe(dest(DST));
+    done();
+};
 
-gulp.task('default', ['themes', 'package']);
+exports.buildThemes = buildThemes;
+exports.buildPackage = buildPackage;
+exports.default = parallel(buildThemes, buildPackage);

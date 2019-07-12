@@ -57,8 +57,8 @@
 		"publisherId": "5ebc61d5-1632-4d5e-8ee1-0f87a0d7af69"
 	},
 	"devDependencies": {
-		"gulp": "^3.9.1",
-		"gulp-mustache": "^3.0.1",
-		"gulp-rename": "^1.2.2"
+		"gulp": "^4.0.2",
+		"gulp-mustache": "^4.1.1",
+		"gulp-rename": "^1.4.0"
 	}
 }
