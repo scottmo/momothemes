@@ -54,3 +54,5 @@
     - Tone down markup attribute color of dark theme
     - Integrate some of the Monokai colors into one dark theme
     - Add markdown code block syntax color
+- v1.0.1
+    - Add missing sidebar selection background for a better visual cue
