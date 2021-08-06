@@ -23,35 +23,6 @@
 		"build": "gulp",
 		"publish-theme": "cd build; vsce publish"
 	},
-	"contributes": {
-		"themes": [
-			{
-				"label": "MomoLight",
-				"uiTheme": "vs",
-				"path": "./themes/MomoLight.json"
-			},
-			{
-				"label": "MomoDark",
-				"uiTheme": "vs-dark",
-				"path": "./themes/MomoDark.json"
-			},
-			{
-				"label": "MomoSolLight",
-				"uiTheme": "vs",
-				"path": "./themes/MomoSolLight.json"
-			},
-			{
-				"label": "MomoSolDark",
-				"uiTheme": "vs-dark",
-				"path": "./themes/MomoSolDark.json"
-			},
-			{
-				"label": "MomoOneDark",
-				"uiTheme": "vs-dark",
-				"path": "./themes/MomoOneDark.json"
-			}
-		]
-	},
 	"__metadata": {
 		"id": "d4b575fc-257a-4b69-86ca-2bc71e9f8892",
 		"publisherDisplayName": "momosct",
