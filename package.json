@@ -2,7 +2,7 @@
 	"name": "momotheme",
 	"displayName": "Momo Theme",
 	"description": "Momo Theme - Visual Studio Code theme inspired by Material, Solarized, Boxy, and One Dark themes",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"publisher": "momosct",
 	"license": "MIT",
 	"engines": {

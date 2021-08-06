@@ -1,4 +1,6 @@
 # Change Log
+- v1.1.1
+    - Fix purple theme comment
 - v1.1.0
     - Add new purple theme!
 - v1.0.2

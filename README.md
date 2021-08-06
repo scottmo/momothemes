@@ -9,7 +9,8 @@ Themes in this package:
 - Momo Dark
 - Momo Sol Light
 - Momo Sol Dark
-- Momo One Dark (testing)
+- Momo One Dark
+- Momo Sol Purple (testing)
 
 [See screenshots here](https://github.com/scottmo/momothemes/tree/master/screenshots/)
 
