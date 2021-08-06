@@ -1,4 +1,6 @@
 # Change Log
+- v1.1.0
+    - Add new purple theme!
 - v1.0.2
     - reversing change log to put latest at the top (don't remember why I didn't do that)
 - v1.0.1
