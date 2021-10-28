@@ -28,6 +28,8 @@
     "annotation": "#e58e36",
     "innerBorder": "#37474F80",
     "string": "#00c5c7",
+    "jsonOdd": "#75d12e",
+    "jsonEven": "#2e8ccf",
     "punctuations": {
       "operator": "#00c5c7",
       "braces": "#586e75",
