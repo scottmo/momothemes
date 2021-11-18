@@ -2,10 +2,9 @@ const fs = require("fs");
 const path = require("path");
 
 const THEME_PREFIX = 'Momo';
-const TEMPLATE_PATH = path.join("src", "Momo.json");
+const TEMPLATE_PATH = path.join("src", "template.json");
 const STYLES_PATH = path.join("src", "styles");
-const BUILD_PATH = "build";
-const BUILD_THEMES_PATH = path.join(BUILD_PATH, "themes");
+const BUILD_THEMES_PATH = path.join("build", "themes");
 
 const styleFileList = fs.readdirSync(STYLES_PATH);
 
@@ -25,7 +24,10 @@ function buildThemes(styleFileList) {
 }
 
 function buildPackageJSON(styleFileList) {
-    const packageJson = readJSON("package.json");
+    const inputPath = path.join("src", "package.json");
+    const outputPath = path.join("build", "package.json");
+
+    const packageJson = readJSON(inputPath);
     packageJson.contributes = { themes: [] };
     styleFileList.forEach(fileName => {
         const themeName = THEME_PREFIX +
@@ -36,7 +38,7 @@ function buildPackageJSON(styleFileList) {
             path: `./themes/${themeName}.json`
         });
     });
-    writeJSON(path.join(BUILD_PATH, "package.json"), packageJson);
+    writeJSON(outputPath, packageJson);
 }
 
 function insertTemplateValues(json, values) {
