@@ -862,7 +862,7 @@
       "editorWidget.border": "{{ui.bgMiddle}}",
       "extensionButton.prominentBackground": "{{scheme.base.green}}90",
       "extensionButton.prominentHoverBackground": "{{scheme.base.green}}",
-      "focusBorder": "{{ui.focusBorder}}00",
+      "focusBorder": "{{ui.accent}}",
       "input.background": "{{ui.bgMiddle}}",
       "input.border": "{{ui.bgMiddle}}",
       "input.foreground": "{{ui.fgMiddle}}",

@@ -21,7 +21,6 @@
     "tabActiveForeground": "#000000",
     "lineHighlight": "#CCD7DA",
     "indentGuide": "#dadada",
-    "focusBorder": "#FFFFFF",
     "innerBorder": "#dadada",
     "shadow": "#00000020"
   },
