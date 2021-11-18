@@ -15,3 +15,17 @@ Themes in this package:
 [See screenshots here](https://github.com/scottmo/momothemes/tree/master/screenshots/)
 
 **Enjoy!**
+
+## Styling Guides
+These are the main principles I am using when creating the color themes. I try to keep things simple. Everything else is either just the base foreground or from the base palette to keep them look easy to the eyes.
+- 5 ui layers
+  - outermost: title bar, status bar
+  - outer: activity bar, sidebar section header
+  - middle: sidebar, widget, popups
+  - inner: gutter, inactive tabs
+  - base
+- punctuations and comments should be lighter than foreground, more like middle of background and foreground
+- main color scheme tokens
+  - class, function, keyword, strings, constants, operators
+  - markup tags are treated as functions, attributes as comments
+  - json keys have two alternating colors

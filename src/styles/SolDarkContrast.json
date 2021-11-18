@@ -1,16 +1,16 @@
 {
   "id": "soldark",
-  "name": "SolDark",
+  "name": "SolDark (Contrast)",
   "type": "dark",
   "ui": {
     "accent": "#80CBC4",
-    "bgOutermost": "#002b36", 
+    "bgOutermost": "#000B0E", 
     "fgOutermost": "#839aa2",
-    "bgOuter": "#002b36",
+    "bgOuter": "#00161B",
     "fgOuter": "#a0b1b3",
-    "bgMiddle": "#002b36",
+    "bgMiddle": "#002029",
     "fgMiddle": "#839aa2",
-    "bgInner": "#002b36",
+    "bgInner": "#002630",
     "fgInner": "#37474F",
     "bg": "#002b36",
     "fg": "#a0b1b3",
@@ -26,9 +26,9 @@
     "shadow": "#00000030"
   },
   "scheme": {
+    "class": "#b4881d",
     "function": "#268bd2",
     "keyword": "#859900",
-    "class": "#b4881d",
     "string": "#32a198",
     "comment": "#586e75",
     "operator": "#32a198",
@@ -37,8 +37,8 @@
     "jsonEven": "#2e8ccf",
     "base": {
       "white": "#eee8d6",
-      "black": "#000000",
-      "red": "#c93f34",
+      "black": "#586e75",
+      "red": "#C94E44",
       "orange": "#F78C6C",
       "yellow": "#b4881d",
       "green": "#859900",
@@ -47,7 +47,7 @@
       "paleblue": "#8faeb9",
       "purple": "#6c71c4",
       "brown": "#C17E70",
-      "pink": "#d13a82"
+      "pink": "#D35A93"
     }
   }
 }

@@ -24,7 +24,7 @@ function buildThemes(styleFileList) {
 }
 
 function buildPackageJSON(styleFileList) {
-    const inputPath = path.join("src", "package.json");
+    const inputPath = path.join("package.json");
     const outputPath = path.join("build", "package.json");
 
     const packageJson = readJSON(inputPath);
