@@ -2,9 +2,14 @@ const fs = require("fs");
 const path = require("path");
 
 const THEME_PREFIX = 'Momo';
+const THEME_SUFFIX = "-color-theme.json";
 const TEMPLATE_PATH = path.join("src", "template.json");
 const STYLES_PATH = path.join("src", "styles");
 const BUILD_THEMES_PATH = path.join("build", "themes");
+
+if (!fs.existsSync(BUILD_THEMES_PATH)){
+    fs.mkdirSync(BUILD_THEMES_PATH, { recursive: true });
+}
 
 const styleFileList = fs.readdirSync(STYLES_PATH);
 
@@ -19,7 +24,7 @@ function buildThemes(styleFileList) {
     for (const styleFileName of styleFileList) {
         const style = readJSON(path.join(STYLES_PATH, styleFileName));
         const theme = insertTemplateValues(template, style);
-        writeJSON(path.join(BUILD_THEMES_PATH, THEME_PREFIX + styleFileName), theme);
+        writeJSON(path.join(BUILD_THEMES_PATH, THEME_PREFIX + styleFileName.replace(".json", THEME_SUFFIX)), theme);
     }
 }
 
@@ -37,7 +42,7 @@ function buildPackageJSON(styleFileList) {
         packageJson.contributes.themes.push({
             label: themeName,
             uiTheme: themeName.includes('Light') ? 'vs' : 'vs-dark',
-            path: `./themes/${themeName}.json`
+            path: `./themes/${themeName}${THEME_SUFFIX}`
         });
     });
     writeJSON(outputPath, packageJson);
