@@ -24,10 +24,12 @@ function buildThemes(styleFileList) {
 }
 
 function buildPackageJSON(styleFileList) {
-    const inputPath = path.join("package.json");
+    const inputPath = "package.json";
     const outputPath = path.join("build", "package.json");
 
     const packageJson = readJSON(inputPath);
+    delete packageJson.devDependencies;
+    packageJson.files = [ `${packageJson.name}-${packageJson.version}.vsix` ]
     packageJson.contributes = { themes: [] };
     styleFileList.forEach(fileName => {
         const themeName = THEME_PREFIX +

@@ -2,38 +2,48 @@
   "id": "sollight",
   "name": "SolLight",
   "type": "light",
-  "ui": {
-    "accent": "#80CBC4",
-    "bgOutermost": "#f4ecda", 
-    "fgOutermost": "#7E939E",
-    "bgOuter": "#f4ecda",
-    "fgOuter": "#7f919a",
-    "bgMiddle": "#eee8d9",
-    "fgMiddle": "#93a1a1",
-    "bgInner": "#f4ecda",
-    "fgInner": "#586e75",
-    "bg": "#f4ecda",
-    "fg": "#586e75",
-    "widgetBorder": "#FFFFFF10",
+  "scheme": {
+    "background": "#f4ecda",
+    "comment": "#93a1a1",
     "caret": "#272727",
+    "foreground": "#495B61",
+    "focusBorder": "#eee8d6",
+    "function": "#227b9f",
+    "indentGuide": "#e4d9c3",
+    "keyword": "#859900",
+    "lineNumbers": "#93a1a1",
+    "invisibles": "#65737E",
+    "lineHighlight": "#e4d9c3",
+    "selection": "#e4d9c3",
+    "shadow": "#00000020",
+    "widgetBackground": "#eee8d9",
+    "inputForeground": "#90A4AE",
+    "inputBorder": "#00000010",
     "scrollbars": "#00000015",
     "scrollbarsHover": "#00000025",
+    "statusbarForeground": "#7E939E",
+    "sidebarForeground": "#6D7D85",
+    "sidebarBackground": "#eee8d9",
+    "listHoverForeground": "#d33682",
     "tabActiveForeground": "#000000",
-    "lineHighlight": "#e4d9c3",
-    "indentGuide": "#e4d9c3",
+    "annotation": "#b4881d",
     "innerBorder": "#e4d9c3",
-    "shadow": "#00000020"
-  },
-  "scheme": {
-    "comment": "#93a1a1",
-    "function": "#227b9f",
-    "keyword": "#859900",
-    "class": "#b4881d",
     "string": "#32a198",
-    "operator": "#009688",
     "jsonOdd": "#0D7579",
     "jsonEven": "#0c60a5",
-    "punctuations": "#bab6ae",
+    "punctuations": {
+      "operator": "#009688",
+      "braces": "#bab6ae",
+      "parans": "#bab6ae",
+      "brackets": "#bab6ae",
+      "quotes": "#bab6ae",
+      "misc": "#bab6ae"
+    },
+    "markup": {
+      "tag": "#268bd2",
+      "bracket": "#bab6ae",
+      "attribute": "#93a1a1"
+    },
     "base": {
       "white": "#eee8d6",
       "black": "#000000",
@@ -46,7 +56,8 @@
       "paleblue": "#588fbb",
       "purple": "#6c71c4",
       "brown": "#C17E70",
-      "pink": "#d33682"
+      "pink": "#d33682",
+      "teal": "#009688"
     }
   }
 }
