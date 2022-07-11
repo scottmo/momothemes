@@ -1,4 +1,8 @@
 # Change Log
+- v1.2.0
+    - Fix missing panel highlight background color
+    - Restructure build template
+    - Better contrast for light themes and some colors
 - v1.1.2
     - Fix purple theme UI color to match
 - v1.1.1
