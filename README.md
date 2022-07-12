@@ -3,6 +3,7 @@
 These themes are the ones I've modified throughout the past few years when using Sublime Text.
 They're a combination of Material theme, Boxy theme, Solarized theme, and some of my preferences.
 With the lack of light themes, I would say mine is pretty decent and very easy on the eyes.
+Do keep in mind that these are not final and I'll keep updating them. If you don't like any of the new changes, you can install a specific version from VS Code or just fork it.
 
 Themes in this package:
 - Momo Light
@@ -12,7 +13,7 @@ Themes in this package:
 - Momo One Dark
 - Momo Sol Purple (testing)
 
-[See screenshots here](https://github.com/scottmo/momothemes/tree/master/screenshots/)
+Preview theme here: https://vscode.dev/theme/momosct.momotheme
 
 **Enjoy!**
 
