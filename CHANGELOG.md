@@ -1,4 +1,6 @@
 # Change Log
+- v1.3.0
+    - Remove color for function parameters
 - v1.2.0
     - Fix missing panel highlight background color
     - Restructure build template
