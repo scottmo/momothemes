@@ -6,7 +6,7 @@
   "publisher": "momosct",
   "license": "MIT",
   "scripts": {
-    "build": "node build.js",
+    "build": "rm -r build/ && node build.js",
     "package": "cd build; vsce package",
     "publish": "cd build; vsce publish"
   },
