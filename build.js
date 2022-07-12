@@ -15,8 +15,8 @@ const styleFileList = fs.readdirSync(STYLES_PATH);
 
 buildThemes(styleFileList);
 buildPackageJSON(styleFileList);
-fs.copyFileSync("CHANGELOG.md", path.join("build", "CHANGELOG.md"));
-fs.copyFileSync("README.md", path.join("build", "README.md"));
+["CHANGELOG.md", "README.md", "LICENSE.md"].forEach(fname =>
+    fs.copyFileSync(fname, path.join("build", fname)));
 
 // helpers
 

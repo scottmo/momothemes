@@ -7,8 +7,8 @@
   "license": "MIT",
   "scripts": {
     "build": "rm -r build/ && node build.js",
-    "package": "cd build; vsce package",
-    "publish": "cd build; vsce publish"
+    "package": "cd build && vsce package",
+    "publish": "cd build && vsce publish"
   },
   "engines": {
     "vscode": "^1.16.0"
