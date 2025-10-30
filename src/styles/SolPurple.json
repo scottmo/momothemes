@@ -3,6 +3,7 @@
   "name": "SolPurple",
   "type": "dark",
   "scheme": {
+    "accent": "#bb98e9",
     "background": "#1e1d40",
     "comment": "#675777",
     "caret": "#FFCC00",

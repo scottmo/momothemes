@@ -3,6 +3,7 @@
   "name": "Dark",
   "type": "dark",
   "scheme": {
+    "accent": "#80CBC4",
     "background": "#263238",
     "comment": "#546E7A",
     "caret": "#FFCC00",

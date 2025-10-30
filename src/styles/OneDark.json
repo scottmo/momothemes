@@ -3,6 +3,7 @@
   "name": "OneDark",
   "type": "dark",
   "scheme": {
+    "accent": "#b8ce6c",
     "background": "#282c34",
     "comment": "#7f848e",
     "caret": "#FFCC00",

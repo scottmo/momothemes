@@ -3,6 +3,7 @@
   "name": "SolLight",
   "type": "light",
   "scheme": {
+    "accent": "#009688",
     "background": "#f4ecda",
     "comment": "#93a1a1",
     "caret": "#272727",

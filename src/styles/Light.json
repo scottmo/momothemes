@@ -3,6 +3,7 @@
   "name": "Light",
   "type": "light",
   "scheme": {
+    "accent": "#009688",
     "background": "#ebebeb",
     "comment": "#acc0c8",
     "caret": "#272727",

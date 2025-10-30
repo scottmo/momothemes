@@ -1,72 +1,77 @@
 # Change Log
+
+- v1.5.0
+  - Fix button background colors
+- v1.4.0
+  - Remove most of the italics styles
 - v1.3.0
-    - Remove color for function parameters
+  - Remove color for function parameters
 - v1.2.0
-    - Fix missing panel highlight background color
-    - Restructure build template
-    - Better contrast for light themes and some colors
+  - Fix missing panel highlight background color
+  - Restructure build template
+  - Better contrast for light themes and some colors
 - v1.1.2
-    - Fix purple theme UI color to match
+  - Fix purple theme UI color to match
 - v1.1.1
-    - Fix purple theme comment
+  - Fix purple theme comment
 - v1.1.0
-    - Add new purple theme!
+  - Add new purple theme!
 - v1.0.2
-    - reversing change log to put latest at the top (don't remember why I didn't do that)
+  - reversing change log to put latest at the top (don't remember why I didn't do that)
 - v1.0.1
-    - Add missing sidebar selection background for a better visual cue
+  - Add missing sidebar selection background for a better visual cue
 - v1.0.0
-    - Tone down markup attribute color of dark theme
-    - Integrate some of the Monokai colors into one dark theme
-    - Add markdown code block syntax color
+  - Tone down markup attribute color of dark theme
+  - Integrate some of the Monokai colors into one dark theme
+  - Add markdown code block syntax color
 - v0.5.4
-    - Use some of the Monokai schemes on One Dark
+  - Use some of the Monokai schemes on One Dark
 - v0.5.2
-    - No more red foreground for one dark
+  - No more red foreground for one dark
 - v0.5.1
-    - Fix one dark theme file name
+  - Fix one dark theme file name
 - v0.5.0
-    - Remove source from published package
+  - Remove source from published package
 - v0.4.1
-    - New experimental one dark theme
-        - lately I've been using one dark and found the contrast is pretty okay whether in bright or dim lighting, which fills up the gap between MomoDark(bright) and MomoSolDark(dim & low contrast), so I used the pallete from one dark and compose this
-    - Fixed shell variable color
+  - New experimental one dark theme
+    - lately I've been using one dark and found the contrast is pretty okay whether in bright or dim lighting, which fills up the gap between MomoDark(bright) and MomoSolDark(dim & low contrast), so I used the pallete from one dark and compose this
+  - Fixed shell variable color
 - v0.3.6
-    - Made annotations' color different from other keywords
+  - Made annotations' color different from other keywords
 - v0.3.5
-    - Fixed operators being italic and affecting readability
+  - Fixed operators being italic and affecting readability
 - v0.3.4
-    - Changed markup tag brackets to less intrusive color as well
+  - Changed markup tag brackets to less intrusive color as well
 - v0.3.3
-    - Fixed jsx text not colored correctly
+  - Fixed jsx text not colored correctly
 - v0.3.2
-    - Organized markup colors
-    - Made most punctuations less intrusive
-    - Gave foreground and sidebar foreground more contrast
+  - Organized markup colors
+  - Made most punctuations less intrusive
+  - Gave foreground and sidebar foreground more contrast
 - v0.3.1
-    - Made keywords italics
-    - Fixed jsx component tag color
-    - Minor sol light color adjustment
+  - Made keywords italics
+  - Fixed jsx component tag color
+  - Minor sol light color adjustment
 - v0.3.0
-    - Made operators and punctuations blend in with background so the code stands out more (inspired by Monokai Pro)
-    - Increased contrast between widget background and editor background
+  - Made operators and punctuations blend in with background so the code stands out more (inspired by Monokai Pro)
+  - Increased contrast between widget background and editor background
 - v0.2.1
-    - Added borders between views
-        - (let me know if this looks bad XD)
-        - (my friend thinks this is more accessible tho)
-    - Adjusted contrast of scrollbar
-    - Made annotation same color as keyword
-    - Adjusted some colors to make them blend better
+  - Added borders between views
+    - (let me know if this looks bad XD)
+    - (my friend thinks this is more accessible tho)
+  - Adjusted contrast of scrollbar
+  - Made annotation same color as keyword
+  - Adjusted some colors to make them blend better
 - v0.2.0
-    - Used mustache to generate themes from pallete files and template
+  - Used mustache to generate themes from pallete files and template
 - v0.1.1
-    - Fixed some weird punctuation colors
-    - Removed quote's color, making it adaptive
+  - Fixed some weird punctuation colors
+  - Removed quote's color, making it adaptive
 - v0.1.0
-    - Lowered background brightness for both light themes
-    - Migrated to JSON theme format
-    - Fixed some color issues
+  - Lowered background brightness for both light themes
+  - Migrated to JSON theme format
+  - Fixed some color issues
 - v0.0.2 - 4
-    - Forgot ¯\_(ツ)_/¯
+  - Forgot ¯\_(ツ)_/¯
 - v0.0.1
-    - Initial port from custom sublime themes
+  - Initial port from custom sublime themes

@@ -3,6 +3,7 @@
   "name": "SolDark",
   "type": "dark",
   "scheme": {
+    "accent": "#80CBC4",
     "background": "#002b36",
     "comment": "#586e75",
     "caret": "#FFCC00",
