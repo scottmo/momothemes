@@ -6,6 +6,7 @@
   "publisher": "momosct",
   "license": "MIT",
   "scripts": {
+    "linklocal": "ln -s $(pwd)/build/themes ~/.vscode/extensions/momosct.momotheme-1.6.0/themes",
     "build": "rm -r build/ && node build.js",
     "package": "cd build && vsce package",
     "publish": "cd build && vsce publish"
