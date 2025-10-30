@@ -1,5 +1,6 @@
 # Change Log
-
+- v1.6.0
+  - Dull Light theme's colors a little bit
 - v1.5.0
   - Fix button background colors
 - v1.4.0
