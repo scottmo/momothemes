@@ -3,10 +3,10 @@
   "displayName": "Momo Theme",
   "description": "Momo Theme - Visual Studio Code theme inspired by Material, Solarized, Boxy, and One Dark themes",
   "version": "1.6.0",
-  "publisher": "momosct",
+  "publisher": "scottmo",
   "license": "MIT",
   "scripts": {
-    "linklocal": "ln -s $(pwd)/build/themes ~/.vscode/extensions/momosct.momotheme-1.6.0/themes",
+    "linklocal": "ln -s $(pwd)/build/themes ~/.vscode/extensions/scottmo.momotheme-1.6.0/themes",
     "build": "rm -r build/ && node build.js",
     "package": "cd build && vsce package",
     "publish": "cd build && vsce publish"
